@@ -8,7 +8,7 @@ class Program
 {
     static void Main()
     {
-        int width = 20;
+        int width = 15;
         int height = 15;
         double porcentajeParedes = 0.3;
 

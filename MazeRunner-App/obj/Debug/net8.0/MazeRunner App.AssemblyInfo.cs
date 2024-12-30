@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MazeRunner App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da84c64909549f9f1d046a9517f0e5315b2cb0b5")]
 [assembly: System.Reflection.AssemblyProductAttribute("MazeRunner App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MazeRunner App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

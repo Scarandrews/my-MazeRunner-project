@@ -4,7 +4,7 @@ using Spectre.Console;
 class Laberinto
 {
     private int[,] estructura;
-    private static Random rand = new Random(12345); // Usamos una semilla fija para obtener el mismo laberinto siempre
+    private static Random rand = new Random();
     private int salidaX, salidaY;
 
     public int Width { get; }

@@ -19,3 +19,25 @@ C:\Users\Andrew\Desktop\MazeRunner App\obj\Debug\net8.0\refint\MazeRunner App.dl
 C:\Users\Andrew\Desktop\MazeRunner App\obj\Debug\net8.0\MazeRunner App.pdb
 C:\Users\Andrew\Desktop\MazeRunner App\obj\Debug\net8.0\MazeRunner App.genruntimeconfig.cache
 C:\Users\Andrew\Desktop\MazeRunner App\obj\Debug\net8.0\ref\MazeRunner App.dll
+C:\Users\Andrew\Desktop\MazeRunner-App\bin\Debug\net8.0\MazeRunner App.exe
+C:\Users\Andrew\Desktop\MazeRunner-App\bin\Debug\net8.0\MazeRunner App.deps.json
+C:\Users\Andrew\Desktop\MazeRunner-App\bin\Debug\net8.0\MazeRunner App.runtimeconfig.json
+C:\Users\Andrew\Desktop\MazeRunner-App\bin\Debug\net8.0\MazeRunner App.dll
+C:\Users\Andrew\Desktop\MazeRunner-App\bin\Debug\net8.0\MazeRunner App.pdb
+C:\Users\Andrew\Desktop\MazeRunner-App\bin\Debug\net8.0\Spectre.Console.dll
+C:\Users\Andrew\Desktop\MazeRunner-App\bin\Debug\net8.0\Spectre.Console.Cli.dll
+C:\Users\Andrew\Desktop\MazeRunner-App\bin\Debug\net8.0\de\Spectre.Console.Cli.resources.dll
+C:\Users\Andrew\Desktop\MazeRunner-App\bin\Debug\net8.0\fr\Spectre.Console.Cli.resources.dll
+C:\Users\Andrew\Desktop\MazeRunner-App\bin\Debug\net8.0\sv\Spectre.Console.Cli.resources.dll
+C:\Users\Andrew\Desktop\MazeRunner-App\obj\Debug\net8.0\MazeRunner App.csproj.AssemblyReference.cache
+C:\Users\Andrew\Desktop\MazeRunner-App\obj\Debug\net8.0\MazeRunner App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrew\Desktop\MazeRunner-App\obj\Debug\net8.0\MazeRunner App.AssemblyInfoInputs.cache
+C:\Users\Andrew\Desktop\MazeRunner-App\obj\Debug\net8.0\MazeRunner App.AssemblyInfo.cs
+C:\Users\Andrew\Desktop\MazeRunner-App\obj\Debug\net8.0\MazeRunner App.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\Desktop\MazeRunner-App\obj\Debug\net8.0\MazeRunner App.sourcelink.json
+C:\Users\Andrew\Desktop\MazeRunner-App\obj\Debug\net8.0\MazeRunn.5A9E8578.Up2Date
+C:\Users\Andrew\Desktop\MazeRunner-App\obj\Debug\net8.0\MazeRunner App.dll
+C:\Users\Andrew\Desktop\MazeRunner-App\obj\Debug\net8.0\refint\MazeRunner App.dll
+C:\Users\Andrew\Desktop\MazeRunner-App\obj\Debug\net8.0\MazeRunner App.pdb
+C:\Users\Andrew\Desktop\MazeRunner-App\obj\Debug\net8.0\MazeRunner App.genruntimeconfig.cache
+C:\Users\Andrew\Desktop\MazeRunner-App\obj\Debug\net8.0\ref\MazeRunner App.dll
