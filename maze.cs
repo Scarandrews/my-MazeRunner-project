@@ -4,7 +4,7 @@ using Spectre.Console;
 class Laberinto
 {
     private int[,] estructura;
-    private static Random rand = new Random(12345); // Usamos una semilla fija para obtener el mismo laberinto siempre
+    private static Random rand = new Random();
     private int salidaX, salidaY;
 
     public int Width { get; }
@@ -15,8 +15,8 @@ class Laberinto
         Width = width;
         Height = height;
         estructura = new int[height, width];
-        salidaX = height / 2; // Colocamos la salida en la mitad del borde derecho
-        salidaY = width - 1;  // Borde derecho
+        salidaX = height -1; // Colocamos la salida en la mitad del borde derecho
+        salidaY = width/2;  // Borde derecho
         GenerarLaberinto(porcentajeParedes);
     }
 
@@ -36,10 +36,17 @@ class Laberinto
                 }
             }
         }
-
-        estructura[1, 1] = 0; // Entrada
-        estructura[salidaX, salidaY] = 0; // Salida en el borde derecho
-        CrearCamino(1, 1, salidaX, salidaY);
+        int entrada1 = Width/4;
+        int entrada2 = (Width/4)*3;
+        estructura[1,entrada1]=0;
+        estructura[1,entrada2]=0;
+        for (int j = entrada1-1; j< entrada2; j++)
+        {
+            estructura[1,j]=1;
+        }
+        
+        estructura[salidaX, salidaY] = 0;
+        CrearCamino(entrada1, entrada2, salidaX, salidaY);
 
         // Añadir algunas trampas
         for (int k = 0; k < (Width * Height) * 0.1; k++)
@@ -67,7 +74,7 @@ class Laberinto
         estructura[xFin, yFin] = 0;
     }
 
-    public void Mostrar(int xJugador1, int yJugador1, int xJugador2, int yJugador2, int xJugador3, int yJugador3)
+    public void Mostrar(int xJugador1, int yJugador1, int xJugador2, int yJugador2)
     {
         Console.Clear();
         for (int i = 0; i < Height; i++)
@@ -82,13 +89,9 @@ class Laberinto
                 {
                     AnsiConsole.Markup("[orange1]J2[/]"); // Jugador 2 en naranja
                 }
-                else if (i == xJugador3 && j == yJugador3)
-                {
-                    AnsiConsole.Markup("[medium_purple3]J3[/]"); // Jugador 3 en violeta
-                }
                 else if (estructura[i, j] == 1)
                 {
-                    AnsiConsole.Markup("[green]▓▓[/]"); // Pared en verde
+                    AnsiConsole.Markup(":alien:"); // Pared en verde
                 }
                 else if (estructura[i, j] == 2)
                 {
@@ -96,7 +99,7 @@ class Laberinto
                 }
                 else if (i == salidaX && j == salidaY)
                 {
-                    AnsiConsole.Markup("[yellow]⛶[/]"); // Indicador de la salida en el borde derecho
+                    AnsiConsole.Markup(":nazar_amulet:"); // Indicador de la salida 
                 }
                 else
                 {

@@ -8,23 +8,24 @@ class Program
 {
     static void Main()
     {
-        int width = 20;
+        int width = 15;
         int height = 15;
         double porcentajeParedes = 0.3;
 
         Laberinto laberinto = new Laberinto(width, height, porcentajeParedes);
 
         Jugador[] jugadores = {
-            new Jugador(1, 1),
-            new Jugador(1, 1),
-            new Jugador(1, 1)
+            new Jugador(1, width/4),
+            new Jugador(1, (width/4)*3),
         };
 
         int jugadorActual = 0;
+        Console.CursorVisible = false;
 
         while (true)
         {
-            laberinto.Mostrar(jugadores[0].X, jugadores[0].Y, jugadores[1].X, jugadores[1].Y, jugadores[2].X, jugadores[2].Y);
+            Console.SetCursorPosition(0,0);
+            laberinto.Mostrar(jugadores[0].X, jugadores[0].Y, jugadores[1].X, jugadores[1].Y);
 
             if (laberinto.EsSalida(jugadores[jugadorActual].X, jugadores[jugadorActual].Y))
             {
@@ -65,10 +66,10 @@ class Program
             }
         }
 
+        Console.CursorVisible = true;
         AnsiConsole.MarkupLine("[yellow]Juego terminado.[/]");
     }
 }
 }
-
 
 
