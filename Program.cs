@@ -24,6 +24,7 @@ class Program
 
         while (true)
         {
+            Console.Clear();
             Console.SetCursorPosition(0,0);
             laberinto.Mostrar(jugadores[0].X, jugadores[0].Y, jugadores[1].X, jugadores[1].Y);
 
