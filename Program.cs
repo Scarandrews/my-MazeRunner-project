@@ -10,9 +10,8 @@ class Program
     {
         int width = 15;
         int height = 15;
-        double porcentajeParedes = 0.3;
 
-        Laberinto laberinto = new Laberinto(width, height, porcentajeParedes);
+        Laberinto laberinto = new Laberinto(width, height);
 
         Jugador[] jugadores = {
             new Jugador(1, width/4),
@@ -26,7 +25,7 @@ class Program
         {
             Console.Clear();
             Console.SetCursorPosition(0,0);
-            laberinto.Mostrar(jugadores[0].X, jugadores[0].Y, jugadores[1].X, jugadores[1].Y);
+            laberinto.MostrarLaberinto(jugadores[0].X, jugadores[0].Y, jugadores[1].X, jugadores[1].Y);
 
             if (laberinto.EsSalida(jugadores[jugadorActual].X, jugadores[jugadorActual].Y))
             {
