@@ -1,0 +1,42 @@
+C:\Users\Andrew\Desktop\mazzzeRunners\bin\Debug\net8.0\mazzzeRunners.exe
+C:\Users\Andrew\Desktop\mazzzeRunners\bin\Debug\net8.0\mazzzeRunners.deps.json
+C:\Users\Andrew\Desktop\mazzzeRunners\bin\Debug\net8.0\mazzzeRunners.runtimeconfig.json
+C:\Users\Andrew\Desktop\mazzzeRunners\bin\Debug\net8.0\mazzzeRunners.dll
+C:\Users\Andrew\Desktop\mazzzeRunners\bin\Debug\net8.0\mazzzeRunners.pdb
+C:\Users\Andrew\Desktop\mazzzeRunners\bin\Debug\net8.0\Spectre.Console.dll
+C:\Users\Andrew\Desktop\mazzzeRunners\bin\Debug\net8.0\Spectre.Console.Cli.dll
+C:\Users\Andrew\Desktop\mazzzeRunners\bin\Debug\net8.0\de\Spectre.Console.Cli.resources.dll
+C:\Users\Andrew\Desktop\mazzzeRunners\bin\Debug\net8.0\fr\Spectre.Console.Cli.resources.dll
+C:\Users\Andrew\Desktop\mazzzeRunners\bin\Debug\net8.0\sv\Spectre.Console.Cli.resources.dll
+C:\Users\Andrew\Desktop\mazzzeRunners\obj\Debug\net8.0\mazzzeRunners.csproj.AssemblyReference.cache
+C:\Users\Andrew\Desktop\mazzzeRunners\obj\Debug\net8.0\mazzzeRunners.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrew\Desktop\mazzzeRunners\obj\Debug\net8.0\mazzzeRunners.AssemblyInfoInputs.cache
+C:\Users\Andrew\Desktop\mazzzeRunners\obj\Debug\net8.0\mazzzeRunners.AssemblyInfo.cs
+C:\Users\Andrew\Desktop\mazzzeRunners\obj\Debug\net8.0\mazzzeRunners.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\Desktop\mazzzeRunners\obj\Debug\net8.0\mazzzeRu.1B89D968.Up2Date
+C:\Users\Andrew\Desktop\mazzzeRunners\obj\Debug\net8.0\mazzzeRunners.dll
+C:\Users\Andrew\Desktop\mazzzeRunners\obj\Debug\net8.0\refint\mazzzeRunners.dll
+C:\Users\Andrew\Desktop\mazzzeRunners\obj\Debug\net8.0\mazzzeRunners.pdb
+C:\Users\Andrew\Desktop\mazzzeRunners\obj\Debug\net8.0\mazzzeRunners.genruntimeconfig.cache
+C:\Users\Andrew\Desktop\mazzzeRunners\obj\Debug\net8.0\ref\mazzzeRunners.dll
+C:\Users\Andrew\Desktop\test case\bin\Debug\net8.0\mazzzeRunners.exe
+C:\Users\Andrew\Desktop\test case\bin\Debug\net8.0\mazzzeRunners.deps.json
+C:\Users\Andrew\Desktop\test case\bin\Debug\net8.0\mazzzeRunners.runtimeconfig.json
+C:\Users\Andrew\Desktop\test case\bin\Debug\net8.0\mazzzeRunners.dll
+C:\Users\Andrew\Desktop\test case\bin\Debug\net8.0\mazzzeRunners.pdb
+C:\Users\Andrew\Desktop\test case\bin\Debug\net8.0\Spectre.Console.dll
+C:\Users\Andrew\Desktop\test case\bin\Debug\net8.0\Spectre.Console.Cli.dll
+C:\Users\Andrew\Desktop\test case\bin\Debug\net8.0\de\Spectre.Console.Cli.resources.dll
+C:\Users\Andrew\Desktop\test case\bin\Debug\net8.0\fr\Spectre.Console.Cli.resources.dll
+C:\Users\Andrew\Desktop\test case\bin\Debug\net8.0\sv\Spectre.Console.Cli.resources.dll
+C:\Users\Andrew\Desktop\test case\obj\Debug\net8.0\mazzzeRunners.csproj.AssemblyReference.cache
+C:\Users\Andrew\Desktop\test case\obj\Debug\net8.0\mazzzeRunners.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Andrew\Desktop\test case\obj\Debug\net8.0\mazzzeRunners.AssemblyInfoInputs.cache
+C:\Users\Andrew\Desktop\test case\obj\Debug\net8.0\mazzzeRunners.AssemblyInfo.cs
+C:\Users\Andrew\Desktop\test case\obj\Debug\net8.0\mazzzeRunners.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\Desktop\test case\obj\Debug\net8.0\mazzzeRu.1B89D968.Up2Date
+C:\Users\Andrew\Desktop\test case\obj\Debug\net8.0\mazzzeRunners.dll
+C:\Users\Andrew\Desktop\test case\obj\Debug\net8.0\refint\mazzzeRunners.dll
+C:\Users\Andrew\Desktop\test case\obj\Debug\net8.0\mazzzeRunners.pdb
+C:\Users\Andrew\Desktop\test case\obj\Debug\net8.0\mazzzeRunners.genruntimeconfig.cache
+C:\Users\Andrew\Desktop\test case\obj\Debug\net8.0\ref\mazzzeRunners.dll

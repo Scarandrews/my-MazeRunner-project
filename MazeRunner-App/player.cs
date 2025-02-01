@@ -1,59 +1,35 @@
-using System;
-using MazeRunner;
+using MazerRunner;
 using Spectre.Console;
 
-class Jugador
+public class Player
 {
-    public int X { get; private set; }
-    public int Y { get; private set; }
-    public int Fichas { get; private set; }
+    public string Name { get; set; }
+    public char Token{ get; set; }
+    public int X{ get; set; }
+    public int Y { get; set; }
+    public int ObjectivesCollected{ get; set; }
 
-    public Jugador(int xInicial, int yInicial)
-    {
-        X = xInicial;
-        Y = yInicial;
-        Fichas = 5;
-    }
+    
 
-    public int MaxPasos()
-    {
-        return Fichas >= 5 ? 3 : (Fichas >= 3 ? 2 : 1);
-    }
+     public Player(string name, char token, int x, int y)
+     {
+        Name = name;
+        Token = token;
+        X = x;
+        Y = y;
+        Character = new Character("", ' ', "", "");
 
-    public bool Mover(int dx, int dy, Laberinto laberinto)
-    {
-        int pasos = MaxPasos();
-        for (int i = 0; i < pasos; i++)
-        {
-            int nuevoX = X + dx;
-            int nuevoY = Y + dy;
+        
 
-            if (laberinto.EsPosicionValida(nuevoX, nuevoY))
-            {
-                X = nuevoX;
-                Y = nuevoY;
+     }
+    public bool SpeedBoost { get; set; }
+    public bool Paralyzed { get; set; }
+    public int TurnsParalyzed { get; set; }
+    public bool SpiritualProtection { get; set; }
+    public int TurnsProtected { get; set; }
+    public bool CanJumpWalls { get; set; }
+    public int TurnsJumping { get; set; }
 
-                if (laberinto.EsTrampa(X, Y))
-                {
-                    Fichas--;
-                    AnsiConsole.MarkupLine("[red]¡Has caído en una trampa y perdido una ficha![/]");
-                    break;
-                }
-
-                if (laberinto.EsSalida(X, Y))
-                    return true;
-            }
-            else
-            {
-                AnsiConsole.MarkupLine("[grey]Chocaste con una pared y no avanzaste más.[/]");
-                break;
-            }
-        }
-        return false;
-    }
-
-    public bool SinFichas()
-    {
-        return Fichas <= 0;
-    }
+    public int TurnsBoosted { get; set; }
+    public Character Character { get; set; }
 }
